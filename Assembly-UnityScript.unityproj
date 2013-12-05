@@ -39,15 +39,16 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>E:/Programas/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>E:/EditorUnity/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>E:/Programas/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>E:/EditorUnity/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GeneraSuelo.js" />
      <Compile Include="Assets\Scripts\Menu principal.js" />
+     <Compile Include="Assets\Scripts\Pause.js" />
      <Compile Include="Assets\Scripts\movimientoCamara.js" />
      <Compile Include="Assets\Scripts\seleccionarMundo.js" />
   </ItemGroup>

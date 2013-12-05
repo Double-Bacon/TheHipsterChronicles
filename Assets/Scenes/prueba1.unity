@@ -188,6 +188,7 @@ GameObject:
   - 114: {fileID: 701182601}
   - 50: {fileID: 701182602}
   - 61: {fileID: 701182603}
+  - 114: {fileID: 701182604}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -284,6 +285,21 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: .660000026, y: .920000017}
   m_Center: {x: 0, y: 0}
+--- !u!114 &701182604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 701182597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d5bd26cb6d86f4faad96aa7acfbb65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuSceneName: 
+  pauseMenuFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  MyGuiSkin: {fileID: 0}
+  fondo: {fileID: 100000, guid: b76054b570788f74ebb12593e423dd87, type: 2}
 --- !u!1 &1281865569
 GameObject:
   m_ObjectHideFlags: 0
