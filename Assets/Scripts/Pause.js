@@ -5,6 +5,12 @@ var fondo : GameObject; /// fondo del menu
 private var pauseEnabled = false;	
 
 
+function ReiniciarNivel(){
+
+	Application.LoadedLevel("Scenes/prueba1.unity");
+	Time.timeScale = 1.0;
+	pauseEnabled = true;
+}
 
 function Start(){
 	pauseEnabled = false;
@@ -107,14 +113,16 @@ GUI.skin.button.font = pauseMenuFont;
 
 		// volver a menu principal
 
-		if(GUI.Button(Rect(Screen.width /2 - 150,Screen.height /2 - 10,250,50), "Volver a menu principal" )){
-			//Application.LoadLevel(mainMenuSceneName);
+		if(GUI.Button(Rect(Screen.width /2 - 150,Screen.height /2 - 10,250,50), "Reiniciar nivel" )){
+			//llamar a reiniciar nivel
+			
+			ReiniciarNivel();
 		}
 
 
 		// salir del juego
 
-		if (GUI.Button (Rect (Screen.width /2 - 150,Screen.height /2 +40,250,50), "Salir del juego")){
+		if (GUI.Button (Rect (Screen.width /2 - 150,Screen.height /2 +40,250,50), "Salir al menu principal")){
 			Application.Quit();
 		}
 
