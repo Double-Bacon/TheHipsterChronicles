@@ -51,7 +51,7 @@ GUI.skin.button.font = pauseMenuFont;
 	
 		// Resumen
 
-		if(GUI.Button(Rect(Screen.width /2 - 150,Screen.height /2 - 110,250,50), "Resumen")){
+		if(GUI.Button(Rect(Screen.width /2 - 150,Screen.height /2 - 110,250,50), "Continuar")){
 			//Vuelve al juego
 					
 			if(pauseEnabled == true){
