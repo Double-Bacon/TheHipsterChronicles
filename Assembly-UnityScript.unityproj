@@ -46,9 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Collision.js" />
+     <Compile Include="Assets\Scripts\CameraCollidersController.js" />
      <Compile Include="Assets\Scripts\GeneraSuelo.js" />
      <Compile Include="Assets\Scripts\Menu principal.js" />
      <Compile Include="Assets\Scripts\Pause.js" />
+     <Compile Include="Assets\Scripts\PlayerCollision.js" />
      <Compile Include="Assets\Scripts\movimientoCamara.js" />
      <Compile Include="Assets\Scripts\seleccionarMundo.js" />
   </ItemGroup>
