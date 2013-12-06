@@ -2,32 +2,31 @@
 var cameraCollidersControllerScript;
 var obstacleTag : String;
 var deathPlaneTag : String;
+var playerColliderBox : BoxCollider2D;
+var circleCollider : CircleCollider2D;
 
 function Start(){
 	cameraCollidersControllerScript = GameObject.Find("Main Camera").GetComponent(CameraCollidersController);
-	obstacleTag = "Floor";
+	obstacleTag = "Obstacle";
 	deathPlaneTag = "Death Plane";
-	//print("Start");
 }
 
-function OnTriggerEnter2D (collider : Collider2D){
-	//print("Other collider: " + collider.name);
-	if(collider.tag == "DeathPlane"){
+function OnTriggerEnter2D (collider : Collider2D){	
+	if(collider.tag == deathPlaneTag){
 		//LLamar al script de morirse.
 		print("Me he muerto!!");
 	}
-}
-function OnCollisionEnter2D (collision : Collision2D){
-	//print("Entrado" + collision.collider.tag);
-	if(collision.collider.tag == obstacleTag){
+	if (collider.tag == obstacleTag){
+		//Deshabilitar collider izquierdo de la cámara.
 		print("He chocado contra un obstáculo");
 		cameraCollidersControllerScript.disableLeftCollider();
 	}
 }
-function OnCollisionExit2D (collision: Collision2D){
-	//print("Salido" + collision.collider.tag);
-	if(collision.collider.tag == obstacleTag){
-		print("He chocado contra un obstáculo");
-		cameraCollidersControllerScript.enableLeftCollider();
+function OnTriggerExit2D (collider : Collider2D){
+	if(collider.tag == obstacleTag){
+		//Habilitar collider izquierdo de la cámara
+		print("He esquivado el obstáculo contra el que me choqué.");
+		cameraCollidersControllerScript.disableLeftCollider();
+		
 	}
 }
