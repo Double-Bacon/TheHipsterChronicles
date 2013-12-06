@@ -7,7 +7,7 @@ private var pauseEnabled = false;
 
 function ReiniciarNivel(){
 
-	Application.LoadedLevel("Scenes/prueba1.unity");
+	Application.LoadLevel(Application.loadedLevel);
 	Time.timeScale = 1.0;
 	pauseEnabled = true;
 }
