@@ -26,7 +26,6 @@ function OnTriggerExit2D (collider : Collider2D){
 	if(collider.tag == obstacleTag){
 		//Habilitar collider izquierdo de la cámara
 		print("He esquivado el obstáculo contra el que me choqué.");
-		cameraCollidersControllerScript.disableLeftCollider();
-		
+		cameraCollidersControllerScript.disableLeftCollider();		
 	}
 }
