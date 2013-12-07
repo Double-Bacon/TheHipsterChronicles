@@ -5,7 +5,6 @@ private var t : float = 0.85;
 var movCameraScript : movimientoCamara;
 var boxCollider : BoxCollider2D;
 var circleCollider : CircleCollider2D;
-var rightCollider : BoxCollider2D;
 
 function Start(){
 	dying = false;
