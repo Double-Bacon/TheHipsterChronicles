@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Menu principal.js" />
      <Compile Include="Assets\Scripts\Pause.js" />
      <Compile Include="Assets\Scripts\PlayerCollision.js" />
+     <Compile Include="Assets\Scripts\PlayerDeath.js" />
      <Compile Include="Assets\Scripts\movimientoCamara.js" />
      <Compile Include="Assets\Scripts\seleccionarMundo.js" />
   </ItemGroup>
