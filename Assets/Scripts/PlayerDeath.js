@@ -5,6 +5,7 @@ private var t : float = 0.85;
 var movCameraScript : movimientoCamara;
 var boxCollider : BoxCollider2D;
 var circleCollider : CircleCollider2D;
+var pauseScript : Pause;
 
 function Start(){
 	dying = false;
@@ -25,5 +26,6 @@ function die (){
 	movCameraScript.stopCamera();
 	boxCollider.enabled = false;
 	circleCollider.enabled = false;
+	pauseScript.enabled = false;
 	print("He muerto!! :'(");
 }

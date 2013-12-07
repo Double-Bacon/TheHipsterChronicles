@@ -532,6 +532,7 @@ MonoBehaviour:
   movCameraScript: {fileID: 1281865575}
   boxCollider: {fileID: 701182603}
   circleCollider: {fileID: 701182606}
+  pauseScript: {fileID: 701182604}
 --- !u!1 &1281865569
 GameObject:
   m_ObjectHideFlags: 0
