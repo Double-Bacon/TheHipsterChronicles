@@ -601,8 +601,8 @@ MonoBehaviour:
   playerDeathScript: {fileID: 701182607}
   obstacleTag: 
   deathPlaneTag: 
-  playerColliderBox: {fileID: 0}
-  circleCollider: {fileID: 0}
+  playerColliderBox: {fileID: 701182603}
+  circleCollider: {fileID: 701182606}
 --- !u!58 &701182606
 CircleCollider2D:
   m_ObjectHideFlags: 0
