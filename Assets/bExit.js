@@ -1,0 +1,3 @@
+﻿function OnMousseDown(){
+	Application.Quit();
+}
