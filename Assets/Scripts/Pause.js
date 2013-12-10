@@ -123,7 +123,7 @@ GUI.skin.button.font = pauseMenuFont;
 		// salir del juego
 
 		if (GUI.Button (Rect (Screen.width /2 - 150,Screen.height /2 +40,250,50), "Salir al menu principal")){
-			Application.Quit();
+			Application.LoadLevel("PruebaMenu");
 		}
 
 	
