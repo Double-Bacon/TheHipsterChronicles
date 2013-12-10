@@ -629,6 +629,12 @@ MonoBehaviour:
   boxCollider: {fileID: 701182603}
   circleCollider: {fileID: 701182606}
   pauseScript: {fileID: 701182604}
+  body: {fileID: 701182602}
+  leftCollider: {fileID: 1281865576}
+  deadMenuSceneName: Has muerto
+  deadMenuFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  MyGuiSkin: {fileID: 0}
+  fondo: {fileID: 100000, guid: b76054b570788f74ebb12593e423dd87, type: 2}
 --- !u!114 &701182608
 MonoBehaviour:
   m_ObjectHideFlags: 0
