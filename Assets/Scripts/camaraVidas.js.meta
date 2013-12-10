@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 17c35e3142c0be141a241c886736bb3e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - corazon1: {fileID: 100000, guid: 9535a596bec87424bb329ab71442b22e, type: 2}
+  - corazon2: {fileID: 100000, guid: 8ac4f5a746785614c8971179f066e2b3, type: 2}
+  - corazon3: {fileID: 100000, guid: a27f84cba87cf3c4d8c6da55cbebf129, type: 2}
+  - jugador: {instanceID: 0}
+  - scriptVidas: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
