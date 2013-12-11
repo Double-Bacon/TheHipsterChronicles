@@ -37,11 +37,10 @@ function Update(){
 
 function die (){
 	dying = true;
-	movCameraScript.stopCamera();
+	movCameraScript.enabled = false;
 	boxCollider.enabled = false;
 	circleCollider.enabled = false;
 	pauseScript.enabled = false;
-	print("He muerto!! :'(");
 }
 
 function ReiniciarNivel(){
