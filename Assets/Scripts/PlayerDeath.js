@@ -41,6 +41,7 @@ function die (){
 	boxCollider.enabled = false;
 	circleCollider.enabled = false;
 	pauseScript.enabled = false;
+	(GetComponent("moveleftright") as MonoBehaviour).enabled = false;
 }
 
 function ReiniciarNivel(){
