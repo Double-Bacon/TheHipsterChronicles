@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerDeath.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Pause.js">
     <Files>
-      <File FileName="Assets\Scripts\PlayerDeath.js" Line="43" Column="30" />
-      <File FileName="Assets\Scripts\Pause.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Menu principal.js" Line="12" Column="2" />
+      <File FileName="Assets\Scripts\PlayerDeath.js" Line="32" Column="2" />
       <File FileName="Assets\Scripts\movimientoCamara.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Pause.js" Line="19" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
