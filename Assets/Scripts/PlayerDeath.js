@@ -29,7 +29,7 @@ function Update(){
 		rig.AddForce(movement);
 	}
 	
-	print(body.transform.position.y);
+	//print(body.transform.position.y);
 	
 	if(body.transform.position.y < (leftCollider.transform.position.y - leftCollider.size.y/2.0)){
 		dead = true;

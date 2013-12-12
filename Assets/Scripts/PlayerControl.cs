@@ -10,7 +10,7 @@ public class PlayerControl : MonoBehaviour
 	
 	public float speed = 5f;// The fastest the player can travel in the x axis.
 	//public AudioClip[] jumpClips;// Array of clips for when the player jumps.
-	public float jumpForce = 500f;// Amount of force added when the player jumps.
+	public float jumpForce = 150f;// Amount of force added when the player jumps.
 	//public AudioClip[] taunts;// Array of clips for when the player taunts.
 	//public float tauntProbability = 50f;// Chance of a taunt happening.
 	//public float tauntDelay = 1f;// Delay for when the taunt should happen.
@@ -31,20 +31,24 @@ public class PlayerControl : MonoBehaviour
 	{
 		// Setting up references.
 		groundCheck = transform.Find("groundCheck");
+		groundCheck2 = transform.Find("groundCheck2");
+		groundCheck3 = transform.Find("groundCheck3");
 		anim = GetComponent<Animator>();
 		col=(BoxCollider2D)this.collider2D;
 	}
 	
 	
-	void Update()
+	void Update() 
 	{
 		// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
-		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+		grounded = (Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"))||Physics2D.Linecast(transform.position, groundCheck2.position, 1 << LayerMask.NameToLayer("Ground"))||Physics2D.Linecast(transform.position,groundCheck3.position, 1 << LayerMask.NameToLayer("Ground")));
 		Debug.DrawLine (transform.position, groundCheck.position, Color.red);
+		Debug.DrawLine (transform.position, groundCheck2.position, Color.blue);
+		Debug.DrawLine (transform.position, groundCheck3.position, Color.green);
 		// If the jump button is pressed and the player is grounded then the player should jump.
 		if(Input.GetButton("Jump") && grounded)
-		jump = true;
-		
+		jump = true; 
+		 
 		if(Input.GetButton("Right")){
 			transform.Translate(Vector3.right*Time.deltaTime*speed);
 		}
