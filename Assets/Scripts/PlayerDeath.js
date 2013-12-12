@@ -5,7 +5,8 @@ private var fallSpeed : float = 2.0;
 private var t : float = 0.85;
 var movCameraScript : movimientoCamara;
 var boxCollider : BoxCollider2D;
-var circleCollider : CircleCollider2D;
+var upperCircleCollider : CircleCollider2D;
+var lowerCircleCollider : CircleCollider2D;
 var pauseScript : Pause;
 var body : Rigidbody2D;
 var leftCollider : BoxCollider2D;
@@ -39,7 +40,8 @@ function die (){
 	dying = true;
 	movCameraScript.enabled = false;
 	boxCollider.enabled = false;
-	circleCollider.enabled = false;
+	upperCircleCollider.enabled = false;
+	lowerCircleCollider.enabled = false;
 	pauseScript.enabled = false;
 	(GetComponent("moveleftright") as MonoBehaviour).enabled = false;
 }

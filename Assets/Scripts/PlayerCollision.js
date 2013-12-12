@@ -4,7 +4,8 @@ var playerDeathScript : PlayerDeath;
 var obstacleTag : String;
 var deathPlaneTag : String;
 var playerColliderBox : BoxCollider2D;
-var circleCollider : CircleCollider2D;
+var upperCircleCollider : CircleCollider2D;
+var lowerCircleCollider : CircleCollider2D;
 
 function Start(){
 	obstacleTag = "Obstacle";
@@ -27,4 +28,20 @@ function OnTriggerExit2D (collider : Collider2D){
 		print("He esquivado el obstáculo contra el que me choqué.");
 		cameraCollidersControllerScript.enableLeftCollider();
 	}
+}
+
+function enableUpperCircleCollider (){
+	upperCircleCollider.enabled = true;
+}
+
+function disableUpperCircleCollider (){
+	upperCircleCollider.enabled = false;
+}
+
+function enableLowerCircleCollider(){
+	lowerCircleCollider.enabled = true;
+}
+
+function disableLowerCircleCollider(){
+	lowerCircleCollider.enabled = false;
 }
