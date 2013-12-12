@@ -20,15 +20,17 @@ public class PlayerControl : MonoBehaviour
 	private Transform groundCheck3;				// A position marking where to check if the player is grounded.
 	private bool grounded = false;			// Whether or not the player is grounded.
 	private Animator anim;					// Reference to the player's animator component.
-	
-	
-	void Awake()
+	private bool crouched = false;
+	private BoxCollider2D col;  
+	 
+	void Awake() 
 	{
 		// Setting up references.
 		groundCheck = transform.Find("groundCheck");
 		anim = GetComponent<Animator>();
-	}
-	
+		col=(BoxCollider2D)this.collider2D;
+	} 
+	 
 	
 	void Update()
 	{
@@ -44,7 +46,23 @@ public class PlayerControl : MonoBehaviour
 		}
 		if(Input.GetButton ("Left")){
 			transform.Translate (Vector3.left*Time.deltaTime*speed);
-		} 
+		}
+
+		if(Input.GetKey(KeyCode.S)||Input.GetKey(KeyCode.DownArrow)){
+			crouched=true;
+		}
+		else{
+			crouched=false;
+		}
+
+		if(crouched){
+			col.size = new Vector2(0.66f,0.5f);
+			col.center = new Vector2(0,-0.22f);
+		}
+		else{
+			col.size = new Vector2(0.66f, 0.92f);
+			col.center =  new Vector2(0,0);
+		}
 	} 
 	
 	
@@ -96,7 +114,7 @@ public class PlayerControl : MonoBehaviour
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
-	}
+	} 
 	
 	/*	
 	public IEnumerator Taunt()
