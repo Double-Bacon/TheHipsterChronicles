@@ -37,11 +37,11 @@ function Update(){
 
 function die (){
 	dying = true;
-	movCameraScript.stopCamera();
+	movCameraScript.enabled = false;
 	boxCollider.enabled = false;
 	circleCollider.enabled = false;
 	pauseScript.enabled = false;
-	print("He muerto!! :'(");
+	(GetComponent("moveleftright") as MonoBehaviour).enabled = false;
 }
 
 function ReiniciarNivel(){
@@ -63,7 +63,7 @@ function OnGUI () {
 
 		// Boton para salir del juego
 		if (GUI.Button (Rect (Screen.width /2 - 150,Screen.height /2 +40,250,50), "Salir al menu principal")){
-			Application.Quit();
+			Application.LoadLevel("PruebaMenu");
 		}
 	}
 }

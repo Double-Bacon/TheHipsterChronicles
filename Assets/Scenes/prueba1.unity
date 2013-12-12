@@ -547,10 +547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d5bd26cb6d86f4faad96aa7acfbb65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuSceneName: 
-  pauseMenuFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  MyGuiSkin: {fileID: 0}
-  fondo: {fileID: 100000, guid: b76054b570788f74ebb12593e423dd87, type: 2}
 --- !u!114 &701182605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -903,7 +899,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prueba: 5
-  running: 0
 --- !u!61 &1281865576
 BoxCollider2D:
   m_ObjectHideFlags: 0
