@@ -1,15 +1,17 @@
-var mainMenuSceneName : String;
-var pauseMenuFont : Font;
-var MyGuiSkin: GUISkin; /// skin Para los botones
-var fondo : GameObject; /// fondo del menu
 private var pauseEnabled = false;	
-
 
 function ReiniciarNivel(){
 
 	Application.LoadLevel(Application.loadedLevel);
 	Time.timeScale = 1.0;
 	pauseEnabled = true;
+}
+
+function ReanudarNivel(){
+    //Screen.showCursor = false;
+	pauseEnabled = false;
+	Time.timeScale = 1;
+	(GetComponent("moveleftright") as MonoBehaviour).enabled = true;
 }
 
 function Start(){
@@ -20,32 +22,22 @@ function Start(){
 
 function Update(){
 
-	//boton que llama el menu
+	//boton que llama a el menu
 	if(Input.GetKeyDown("p")){
 		
 		if(pauseEnabled == false){
 			pauseEnabled = true;
 			Time.timeScale = 0.0;
+			(GetComponent("moveleftright") as MonoBehaviour).enabled = false;
 			//Screen.showCursor = true;
 		}
 	}
 }
-
-
 //private var showGraphicsDropDown = false;  //para modo bajar graficos
 
 function OnGUI () {
 
-GUI.skin = MyGuiSkin;                     
-GUI.skin.box.font = pauseMenuFont;
-GUI.skin.button.font = pauseMenuFont;
-
-
 	if(pauseEnabled == true){
-
-	// fondo del menu
-    	
-    	fondo.gameObject.SetActive(true);
 
 	// botones del menu
 	
@@ -55,22 +47,11 @@ GUI.skin.button.font = pauseMenuFont;
 			//Vuelve al juego
 					
 			if(pauseEnabled == true){
-			
-				fondo.gameObject.SetActive(false);
-			
-				pauseEnabled = false;
-				Time.timeScale = 1;
+				ReanudarNivel();			
 				//Screen.showCursor = false;			
+			}
 		}
 
-			
-		}
-
-	
-	
-	
-	
-	
 // boton calidad visual del juego
 	
 		if(GUI.Button(Rect(Screen.width /2 - 150,Screen.height /2 - 60 ,250,50), "Calidad Grafica")){

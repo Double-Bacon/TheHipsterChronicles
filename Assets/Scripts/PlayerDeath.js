@@ -5,7 +5,8 @@ private var fallSpeed : float = 2.0;
 private var t : float = 0.85;
 var movCameraScript : movimientoCamara;
 var boxCollider : BoxCollider2D;
-var circleCollider : CircleCollider2D;
+var upperCircleCollider : CircleCollider2D;
+var lowerCircleCollider : CircleCollider2D;
 var pauseScript : Pause;
 var body : Rigidbody2D;
 var leftCollider : BoxCollider2D;
@@ -28,7 +29,7 @@ function Update(){
 		rig.AddForce(movement);
 	}
 	
-	print(body.transform.position.y);
+	//print(body.transform.position.y);
 	
 	if(body.transform.position.y < (leftCollider.transform.position.y - leftCollider.size.y/2.0)){
 		dead = true;
@@ -37,11 +38,12 @@ function Update(){
 
 function die (){
 	dying = true;
-	movCameraScript.stopCamera();
+	movCameraScript.enabled = false;
 	boxCollider.enabled = false;
-	circleCollider.enabled = false;
+	upperCircleCollider.enabled = false;
+	lowerCircleCollider.enabled = false;
 	pauseScript.enabled = false;
-	print("He muerto!! :'(");
+	(GetComponent("moveleftright") as MonoBehaviour).enabled = false;
 }
 
 function ReiniciarNivel(){
