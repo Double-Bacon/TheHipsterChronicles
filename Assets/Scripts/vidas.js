@@ -6,12 +6,7 @@ function getVidas(){
 	return numVidas;
 
 }
-	
-function quitaVidas(){
 
-	numVidas--;
-
-}
 
 function Start () {
 
