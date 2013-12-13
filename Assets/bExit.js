@@ -1,3 +1,3 @@
-﻿function OnMousseDown(){
+﻿function OnMouseDown(){
 	Application.Quit();
 }

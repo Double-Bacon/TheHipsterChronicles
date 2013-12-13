@@ -11,9 +11,6 @@ var pauseScript : Pause;
 var body : Rigidbody2D;
 var leftCollider : BoxCollider2D;
 var deadMenuSceneName : String;
-var deadMenuFont : Font;
-var MyGuiSkin: GUISkin;
-var fondo : GameObject;
 
 function Start(){
 	dying = false;
@@ -52,11 +49,6 @@ function ReiniciarNivel(){
 
 function OnGUI () {
 	if(dead){
-		GUI.skin = MyGuiSkin;                     
-		GUI.skin.box.font = deadMenuFont;
-		GUI.skin.button.font = deadMenuFont;
-
-    	fondo.gameObject.SetActive(true);
 
 		// Boton para reiniciar
 		if(GUI.Button(Rect(Screen.width /2 - 150,Screen.height /2 - 10,250,50), "Reiniciar nivel" )){
