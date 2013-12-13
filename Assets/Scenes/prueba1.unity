@@ -203,7 +203,7 @@ Transform:
   m_PrefabInternal: {fileID: 1999223729}
   m_GameObject: {fileID: 179272687}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.48405933, y: .592612624, z: 0}
+  m_LocalPosition: {x: 6.17463303, y: .592612624, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1399,7 +1399,8 @@ MonoBehaviour:
   corazon3: {fileID: 1273022301}
   num: 0
   jugador: {fileID: 701182597}
-  scriptVidas: {fileID: 0}
+  scriptVidas: {fileID: 701182608}
+  deathScript: {fileID: 701182607}
 --- !u!1 &1328529393
 GameObject:
   m_ObjectHideFlags: 0

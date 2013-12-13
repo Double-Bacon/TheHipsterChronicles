@@ -43,7 +43,7 @@ function die (){
 	upperCircleCollider.enabled = false;
 	lowerCircleCollider.enabled = false;
 	pauseScript.enabled = false;
-	(GetComponent("moveleftright") as MonoBehaviour).enabled = false;
+	(GetComponent("PlayerControl") as MonoBehaviour).enabled = false;
 }
 
 function ReiniciarNivel(){

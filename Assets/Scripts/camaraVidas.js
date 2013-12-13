@@ -6,6 +6,7 @@ var num:int;
 
 var jugador:GameObject;
 var scriptVidas:vidas;
+var deathScript : PlayerDeath;
 
 function Start () {
 	
@@ -34,6 +35,7 @@ function Update () {
     if (num==0) {
         // show
         corazon1.renderer.enabled = false;
+        deathScript.die();
   
     }
 }
