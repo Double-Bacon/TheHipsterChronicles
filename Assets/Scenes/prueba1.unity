@@ -333,7 +333,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 224460530}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0232914519, y: .0843262672, z: 0}
+  m_LocalPosition: {x: -.20888193, y: .0843262672, z: 0}
   m_LocalScale: {x: .428571463, y: .150000006, z: .300000012}
   m_Children: []
   m_Father: {fileID: 660796804}
@@ -471,9 +471,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 433223061}
   - 33: {fileID: 433223060}
-  - 135: {fileID: 433223059}
   - 23: {fileID: 433223058}
-  - 54: {fileID: 433223057}
+  - 50: {fileID: 433223059}
+  - 58: {fileID: 433223057}
   m_Layer: 0
   m_Name: Bala
   m_TagString: Untagged
@@ -481,22 +481,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &433223057
-Rigidbody:
+--- !u!58 &433223057
+CircleCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5400000, guid: aca26f87c49c81c4d9abd9dbc9198032,
-    type: 2}
-  m_PrefabInternal: {fileID: 1504569197}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 433223056}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .50000006
+  m_Center: {x: 5.96046448e-08, y: 0}
 --- !u!23 &433223058
 Renderer:
   m_ObjectHideFlags: 0
@@ -504,7 +499,7 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 1504569197}
   m_GameObject: {fileID: 433223056}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -519,19 +514,21 @@ Renderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
---- !u!135 &433223059
-SphereCollider:
+--- !u!50 &433223059
+Rigidbody2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13500000, guid: aca26f87c49c81c4d9abd9dbc9198032,
-    type: 2}
-  m_PrefabInternal: {fileID: 1504569197}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 433223056}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!33 &433223060
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -757,9 +754,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 660796804}
   - 33: {fileID: 660796807}
-  - 65: {fileID: 660796806}
   - 23: {fileID: 660796805}
   - 114: {fileID: 660796808}
+  - 61: {fileID: 660796806}
   m_Layer: 0
   m_Name: Enemigo1
   m_TagString: Untagged
@@ -800,18 +797,17 @@ Renderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
---- !u!65 &660796806
-BoxCollider:
+--- !u!61 &660796806
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 660796803}
+  m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1}
+  m_Center: {x: 0, y: 0}
 --- !u!33 &660796807
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -832,7 +828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeRecharge: 3
   time: 3
-  velocityBullet: 20
+  velocityBullet: 5
   exitBullet: {fileID: 224460530}
   enemy: {fileID: 660796803}
   bullet: {fileID: 100000, guid: aca26f87c49c81c4d9abd9dbc9198032, type: 2}
@@ -1803,7 +1799,13 @@ Prefab:
       propertyPath: m_Name
       value: Bala
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2300000, guid: aca26f87c49c81c4d9abd9dbc9198032, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5400000, guid: aca26f87c49c81c4d9abd9dbc9198032, type: 2}
+    - {fileID: 13500000, guid: aca26f87c49c81c4d9abd9dbc9198032, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: aca26f87c49c81c4d9abd9dbc9198032, type: 2}
   m_RootGameObject: {fileID: 433223056}
   m_IsPrefabParent: 0

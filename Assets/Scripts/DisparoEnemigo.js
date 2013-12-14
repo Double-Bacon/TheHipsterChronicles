@@ -12,7 +12,7 @@ function Update () {
 	if(time <= 0){
 		var newShot :GameObject = Instantiate(bullet, exitBullet.transform.position, enemy.transform.rotation);
 		newShot.AddComponent("EliminarBala");  //añadir tiempo de vida a la bala
-		newShot.rigidbody.AddRelativeForce(new Vector3(0, velocityBullet, 0), ForceMode.VelocityChange);  //aplicar velocidad
+		newShot.rigidbody.AddRelativeForce(new Vector3(-velocityBullet, 0, 0), ForceMode.VelocityChange);  //aplicar velocidad
 		 
 		time = timeRecharge;	
 	}
