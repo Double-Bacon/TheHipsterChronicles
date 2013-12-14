@@ -19,7 +19,7 @@ function Update () {}
 function OnCollisionEnter2D(coll: Collision2D) {
 
 	
-	if (coll.gameObject.tag == "Trampa"){
+	if (coll.gameObject.tag == "Trampa" || coll.gameObject.name == "Enemigo1"){
 
 		numVidas--;
 
