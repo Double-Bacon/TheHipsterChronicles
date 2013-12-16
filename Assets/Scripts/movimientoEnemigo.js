@@ -8,15 +8,17 @@ function Start () {
 
 	posMaxX = this.gameObject.transform.position.x;
 	posMinX = posMaxX - 30.0;
-	velocity = -0.02;
+	velocity = -0.1;
 }
 
 function Update () {
 	
 	if(this.gameObject.transform.position.x > posMaxX || this.gameObject.transform.position.x < posMinX)
 		velocity *= -1;
-	 
-	this.gameObject.transform.position.x += velocity;
+	
+	this.gameObject.transform.Translate(Vector3(velocity, 0, 0)*Time.deltaTime);    
+	//this.gameObject.transform.position.x += velocity;
+	
 	//var movement = Vector2(velocity, 0);
 	//this.rigidbody2D.AddForce(movement);
 

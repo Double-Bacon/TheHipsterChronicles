@@ -758,6 +758,7 @@ GameObject:
   - 114: {fileID: 660796808}
   - 61: {fileID: 660796806}
   - 114: {fileID: 660796809}
+  - 50: {fileID: 660796810}
   m_Layer: 0
   m_Name: Enemigo1
   m_TagString: Untagged
@@ -847,6 +848,21 @@ MonoBehaviour:
   velocity: 0
   posMinX: 0
   posMaxX: 0
+--- !u!50 &660796810
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 660796803}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &701182597
 GameObject:
   m_ObjectHideFlags: 0
