@@ -8,7 +8,7 @@ function Start () {
 
 	posMaxX = this.gameObject.transform.position.x;
 	posMinX = posMaxX - 30.0;
-	velocity = -0.1;
+	velocity = 3;
 }
 
 function Update () {
