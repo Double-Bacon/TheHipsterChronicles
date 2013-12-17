@@ -6,13 +6,14 @@ var posMaxX :float;
 
 function Start () {
 	
-	posMaxX = this.gameObject.transform.position.x;
-	posMinX = posMaxX - 30.0;
-	speed = 3;
+	posMaxX = this.gameObject.transform.position.x + 5.0;
+	posMinX = this.gameObject.transform.position.x - 5.0;
+	speed = -3;
+
 }
 
 function Update () {
-	
+
 	if(this.gameObject.transform.position.x > posMaxX || this.gameObject.transform.position.x < posMinX)
 		speed *= -1;
 	
@@ -27,6 +28,7 @@ function Update () {
 
 function OnCollisionEnter2D(col: Collision2D){
 	
-	if(col.gameObject.name == "Trampa" || col.gameObject.name == "Caja carton" || col.gameObject.tag == "Coche")
+	if(col.gameObject.tag == "Trampa" || col.gameObject.tag == "Obstacle")
 		speed *= -1;
+
 }
