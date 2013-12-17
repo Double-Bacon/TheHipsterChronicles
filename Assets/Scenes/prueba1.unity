@@ -882,6 +882,7 @@ GameObject:
   - 114: {fileID: 701182608}
   - 114: {fileID: 701182601}
   - 58: {fileID: 701182609}
+  - 114: {fileID: 701182610}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1053,6 +1054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f84f92d254bc7045b9040e2a76d7d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  noHarmModeScript: {fileID: 701182610}
 --- !u!58 &701182609
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1064,6 +1066,21 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_Radius: .25
   m_Center: {x: .150000006, y: -.200000003}
+--- !u!114 &701182610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 701182597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aff027e95e4e6ea4d969f8422bc9116a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidasScript: {fileID: 701182608}
+  mrenderer: {fileID: 701182599}
+  modeDuration: 3
+  blinkInterval: .300000012
 --- !u!1 &811706977
 GameObject:
   m_ObjectHideFlags: 0
