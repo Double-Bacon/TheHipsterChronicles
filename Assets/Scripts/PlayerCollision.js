@@ -18,14 +18,14 @@ function OnTriggerEnter2D (collider : Collider2D){
 	}
 	if (collider.tag == obstacleTag){
 		//Deshabilitar collider izquierdo de la cámara.
-		print("He chocado contra un obstáculo");
+		//print("He chocado contra un obstáculo");
 		cameraCollidersControllerScript.disableLeftCollider();
 	}
 }
 function OnTriggerExit2D (collider : Collider2D){
 	if(collider.tag == obstacleTag){
 		//Habilitar collider izquierdo de la cámara
-		print("He esquivado el obstáculo contra el que me choqué.");
+		//print("He esquivado el obstáculo contra el que me choqué.");
 		cameraCollidersControllerScript.enableLeftCollider();
 	}
 }
