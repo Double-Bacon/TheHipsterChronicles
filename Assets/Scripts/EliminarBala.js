@@ -1,4 +1,4 @@
-﻿var lifeTime :float = 1.5;
+﻿var lifeTime :float = 3;
 
 function Start () {
 
