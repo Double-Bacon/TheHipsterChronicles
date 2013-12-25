@@ -12,7 +12,12 @@ var newShot_Vomit :GameObject = null;
 
 var BulletFire :int = 0;
 
+var active_shooting :float = 0;
+
 function Update () {
+  
+  if(active_shooting == 1){
+  
 	time -= Time.deltaTime;
 	
 	if(time <= 0){
@@ -33,5 +38,5 @@ function Update () {
 		
 	if(newShot_Vomit != null)
 		newShot_Vomit.transform.Translate(new Vector3(-velocityBullet, 0, 0)*Time.deltaTime);  //aplicar velocidad
-		
+  }		
 }
