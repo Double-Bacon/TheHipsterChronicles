@@ -11,7 +11,7 @@ function ReanudarNivel(){
     //Screen.showCursor = false;
 	pauseEnabled = false;
 	Time.timeScale = 1;
-	(GetComponent("moveleftright") as MonoBehaviour).enabled = true;
+	(GetComponent("PlayerControl") as MonoBehaviour).enabled = true;
 }
 
 function Start(){
@@ -28,7 +28,7 @@ function Update(){
 		if(pauseEnabled == false){
 			pauseEnabled = true;
 			Time.timeScale = 0.0;
-			(GetComponent("moveleftright") as MonoBehaviour).enabled = false;
+			(GetComponent("PlayerControl") as MonoBehaviour).enabled = false;
 			//Screen.showCursor = true;
 		}
 	}
