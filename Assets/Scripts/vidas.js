@@ -20,7 +20,7 @@ function Update () {}
 function OnCollisionEnter2D(coll: Collision2D) {
 
 	
-	if ((coll.gameObject.tag == "Trampa" || coll.gameObject.name == "Enemigo1") && !noHarmModeScript.getEnabled()){
+	if ((coll.gameObject.tag == "Trampa" || coll.gameObject.name == "Enemigo_Pijo") && !noHarmModeScript.getEnabled()){
 
 		numVidas--;
 		
