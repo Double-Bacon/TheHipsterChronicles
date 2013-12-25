@@ -1,9 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DisparoEnemigo.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EfectoImpactoBalas.js">
     <Files>
-      <File FileName="Assets\Scripts\vidas.js" Line="11" Column="1" />
-      <File FileName="Assets\Scripts\DisparoEnemigo.js" Line="27" Column="4" />
+      <File FileName="Assets\Scripts\movimientoEnemigo.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\vidas.js" Line="34" Column="45" />
+      <File FileName="Assets\Scripts\DisparoEnemigo.js" Line="23" Column="9" />
+      <File FileName="Assets\Scripts\EfectoImpactoBalas.js" Line="14" Column="29" />
+      <File FileName="Assets\Scripts\PlayerDeath.js" Line="21" Column="19" />
+      <File FileName="Assets\Scripts\EliminarBala.js" Line="13" Column="2" />
+      <File FileName="Assets\Scripts\movimientoCamara.js" Line="6" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

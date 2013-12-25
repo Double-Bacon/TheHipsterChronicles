@@ -31,7 +31,7 @@ function Update () {}
 
 function OnTriggerEnter2D (coll : Collider2D){
 	Debug.Log("Vidas.js--> OnCollisionEnter2D:"+coll.gameObject.name);
-	if ((coll.gameObject.tag.Contains("Trampa") || coll.gameObject.name.Contains("Enemigo1")) 
+	if ((coll.gameObject.tag.Contains("Trampa") || coll.gameObject.name.Contains("Enemigo_Pijo")) 
 				&& !noHarmModeScript.getEnabled()
 				&& !coll.gameObject.name.Contains("Disparo")){
 
