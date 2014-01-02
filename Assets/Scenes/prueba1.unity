@@ -147,7 +147,7 @@ GameObject:
   - 212: {fileID: 43148882}
   - 61: {fileID: 43148881}
   - 114: {fileID: 43148883}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Shot_Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2958,6 +2958,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: aab184b8fa2a3754a9149825c5f06a1f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 0}
@@ -3523,7 +3527,7 @@ GameObject:
   - 50: {fileID: 1726853115}
   - 58: {fileID: 1726853114}
   - 114: {fileID: 1726853113}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BalaVomit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3705,7 +3709,7 @@ GameObject:
   - 50: {fileID: 2061176409}
   - 61: {fileID: 2061176408}
   - 114: {fileID: 2061176407}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemigo_Pijo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

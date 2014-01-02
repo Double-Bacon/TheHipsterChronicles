@@ -26,13 +26,13 @@ function Update(){
 	if(vomit == 1){
 		
 		if(time <= 0){
-			vomitPartSyst.enableEmission = true;			
+			vomitPartSyst.Play();			
 			timeVomit -= Time.deltaTime;
 		}else
 			time -= Time.deltaTime;
 		
 		if(timeVomit <= 0){
-			vomitPartSyst.enableEmission = false;
+			vomitPartSyst.Stop();
 			time = timeRecharge;
 			timeVomit = timeRechargeVomit;
 			countVomit -= 1;
