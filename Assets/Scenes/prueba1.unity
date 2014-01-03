@@ -147,7 +147,7 @@ GameObject:
   - 212: {fileID: 43148882}
   - 61: {fileID: 43148881}
   - 114: {fileID: 43148883}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Shot_Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2164,7 +2164,6 @@ GameObject:
   - 23: {fileID: 660796805}
   - 114: {fileID: 660796808}
   - 61: {fileID: 660796806}
-  - 50: {fileID: 660796810}
   m_Layer: 10
   m_Name: Enemigo_Disp
   m_TagString: Untagged
@@ -2179,7 +2178,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 660796803}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 54.4074364, y: 1.27041435, z: 0}
+  m_LocalPosition: {x: 54.4074364, y: 1.05013561, z: 0}
   m_LocalScale: {x: .699999988, y: 2, z: 1}
   m_Children:
   - {fileID: 224460531}
@@ -2246,21 +2245,6 @@ MonoBehaviour:
   newShot_Vomit: {fileID: 0}
   BulletFire: 0
   active_shooting: 0
---- !u!50 &660796810
-Rigidbody2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 660796803}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_FixedAngle: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!1 &701182597
 GameObject:
   m_ObjectHideFlags: 0
@@ -3706,7 +3690,6 @@ GameObject:
   - 4: {fileID: 2061176412}
   - 33: {fileID: 2061176411}
   - 23: {fileID: 2061176410}
-  - 50: {fileID: 2061176409}
   - 61: {fileID: 2061176408}
   - 114: {fileID: 2061176407}
   m_Layer: 10
@@ -3741,21 +3724,6 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
---- !u!50 &2061176409
-Rigidbody2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2061176406}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_FixedAngle: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!23 &2061176410
 Renderer:
   m_ObjectHideFlags: 0
@@ -3791,7 +3759,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2061176406}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.1892948, y: 1.34358406, z: 0}
+  m_LocalPosition: {x: 30.1892948, y: 1.08659172, z: 0}
   m_LocalScale: {x: .699999988, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

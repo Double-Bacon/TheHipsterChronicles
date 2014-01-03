@@ -1,14 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DisparoEnemigo.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\movimientoEnemigo.js">
     <Files>
-      <File FileName="Assets\Scripts\DisparoEnemigo.js" Line="26" Column="20" />
-      <File FileName="Assets\Scripts\PlayerCollision.js" Line="26" Column="34" />
-      <File FileName="Assets\Scripts\EfectoImpactoBalas.js" Line="65" Column="48" />
-      <File FileName="Assets\Scripts\CameraCollidersController.js" Line="2" Column="1" />
-      <File FileName="Assets\Scripts\movimientoCamara.js" Line="6" Column="32" />
-      <File FileName="Assets\Scripts\ActivarDisparosEnemigo.js" Line="7" Column="22" />
-      <File FileName="Assets\Scripts\PlayerDeath.js" Line="6" Column="20" />
+      <File FileName="Assets\Scripts\movimientoEnemigo.js" Line="32" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -42,7 +42,7 @@ function Update(){
 			vomit = 0;
 					
 	}
-	/*
+	
 	if(speed == 1){
 		if(inicCountSpeed == 0){
 			(GetComponent("PlayerControl") as MonoBehaviour).speed /= 2;
@@ -56,7 +56,7 @@ function Update(){
 			 	speed = 0;
 			 }
 		}
-	}*/
+	}
 }
 
 
