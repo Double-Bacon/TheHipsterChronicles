@@ -28,7 +28,7 @@ function Update () {
 
 function OnCollisionEnter2D(col: Collision2D){
 	
-	if(col.gameObject.tag == "Trampa" || col.gameObject.tag == "Obstacle")
+	if(col.gameObject.tag.Contains("Trampa") || col.gameObject.tag.Contains("Obstacle"))
 		speed *= -1;
 
 }

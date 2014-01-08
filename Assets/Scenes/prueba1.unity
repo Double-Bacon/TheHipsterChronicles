@@ -147,7 +147,7 @@ GameObject:
   - 212: {fileID: 43148882}
   - 61: {fileID: 43148881}
   - 114: {fileID: 43148883}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Shot_Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,6 +672,10 @@ Prefab:
     - target: {fileID: 400000, guid: e2df35d57d531264c95740735e3756a1, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: e2df35d57d531264c95740735e3756a1, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e2df35d57d531264c95740735e3756a1, type: 2}
@@ -2164,6 +2168,7 @@ GameObject:
   - 23: {fileID: 660796805}
   - 114: {fileID: 660796808}
   - 61: {fileID: 660796806}
+  - 50: {fileID: 660796809}
   m_Layer: 10
   m_Name: Enemigo_Disp
   m_TagString: Untagged
@@ -2245,6 +2250,21 @@ MonoBehaviour:
   newShot_Vomit: {fileID: 0}
   BulletFire: 0
   active_shooting: 0
+--- !u!50 &660796809
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 660796803}
+  m_Mass: 100000
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &701182597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2946,6 +2966,10 @@ Prefab:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: aab184b8fa2a3754a9149825c5f06a1f, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 0}
@@ -3566,7 +3590,7 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 1128169711}
   m_GameObject: {fileID: 1726853112}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255
@@ -3692,6 +3716,7 @@ GameObject:
   - 23: {fileID: 2061176410}
   - 61: {fileID: 2061176408}
   - 114: {fileID: 2061176407}
+  - 50: {fileID: 2061176409}
   m_Layer: 10
   m_Name: Enemigo_Pijo
   m_TagString: Untagged
@@ -3724,6 +3749,21 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
+--- !u!50 &2061176409
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2061176406}
+  m_Mass: 100000
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!23 &2061176410
 Renderer:
   m_ObjectHideFlags: 0
@@ -3759,7 +3799,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2061176406}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.1892948, y: 1.08659172, z: 0}
+  m_LocalPosition: {x: 34.3745956, y: 1.08659172, z: 0}
   m_LocalScale: {x: .699999988, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3831,7 +3871,7 @@ Renderer:
     type: 2}
   m_PrefabInternal: {fileID: 409617472}
   m_GameObject: {fileID: 2147225425}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_LightmapIndex: 255

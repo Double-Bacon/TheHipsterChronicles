@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\movimientoEnemigo.js">
     <Files>
-      <File FileName="Assets\Scripts\movimientoEnemigo.js" Line="32" Column="15" />
+      <File FileName="Assets\Scripts\vidas.js" Line="34" Column="78" />
+      <File FileName="Assets\Scripts\movimientoEnemigo.js" Line="30" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
