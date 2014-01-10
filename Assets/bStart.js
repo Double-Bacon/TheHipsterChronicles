@@ -1,4 +1,4 @@
 ﻿function OnMouseDown(){
-	Application.LoadLevel("prueba1");
+	Application.LoadLevel("Seleccion Mundo");
 
 }

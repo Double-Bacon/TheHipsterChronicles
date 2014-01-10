@@ -11,5 +11,15 @@ EditorBuildSettings:
     path: Assets/Scenes/prueba1.unity
   - enabled: 0
     path: Assets/asfsdfadf.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Seleccion Mundo.unity
+  - enabled: 1
+    path: Assets/Scenes/nivel5.unity
+  - enabled: 1
+    path: Assets/Scenes/nivel1.unity
+  - enabled: 1
+    path: Assets/Scenes/nivel2.unity
+  - enabled: 1
+    path: Assets/Scenes/nivel3.unity
+  - enabled: 1
+    path: Assets/Scenes/nivel4.unity

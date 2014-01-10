@@ -6,6 +6,9 @@ var posicionCamara;
 var niveles = 5;
 var mimundo1 : GameObject;
 var mimundo2 : GameObject;
+var mimundo3 : GameObject;
+var mimundo4 : GameObject;
+var mimundo5 : GameObject;
 var nivelActual=1;/*
 var texturaprehistoria : Texture2D;
 var texturaglacial : Texture2D; 
@@ -45,21 +48,29 @@ function Start(){
 	 
 	  Instantiate(mimundo1);
 	  Instantiate(mimundo2);
-	 for (var y = 3; y <= niveles; y++) {
+	  Instantiate(mimundo3);
+	  Instantiate(mimundo4);
+	  Instantiate(mimundo5);
+	  
+	
+/*	 for (var y = 3; y <= niveles; y++) {
 	  
             var plano = GameObject.CreatePrimitive(PrimitiveType.Plane);
             plano.transform.position = Vector3 ((y-1)*15,0,15);
             plano.transform.eulerAngles = Vector3 (90,180,0);
-            plano.AddComponent("zoomSeleccionNivel");
+            plano.AddComponent("cargarEscena"); 
             plano.name="plano"+y;  
     } 
+  */
+  
   
  	 
 } 
 
 function Update (){
 
-	if(moverIzquierda){
+
+	if(moverIzquierda){ 
 	
 		if(transform.position.x-posicionCamara>-15){
 	
