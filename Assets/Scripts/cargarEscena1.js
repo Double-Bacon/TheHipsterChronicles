@@ -6,7 +6,7 @@ function Start () {
 
 function OnMouseDown () {
 
-	Application.LoadLevel("nivel1");
+	Application.LoadLevel("Nivel 1");
 
 }
 
