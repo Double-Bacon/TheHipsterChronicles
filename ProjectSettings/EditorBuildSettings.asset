@@ -6,20 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Prefabs/Scenes/PruebaMenu.unity
+    path: Assets/Scenes/PruebaMenu.unity
   - enabled: 1
-    path: Assets/Prefabs/Scenes/prueba1.unity
+    path: Assets/Scenes/prueba1.unity
   - enabled: 0
     path: Assets/asfsdfadf.unity
   - enabled: 1
-    path: Assets/Prefabs/Scenes/Seleccion Mundo.unity
+    path: Assets/Scenes/Seleccion Mundo.unity
   - enabled: 1
-    path: Assets/Prefabs/Scenes/nivel5.unity
+    path: Assets/Scenes/nivel5.unity
   - enabled: 1
-    path: Assets/Prefabs/Scenes/nivel1.unity
+    path: Assets/Scenes/nivel1.unity
   - enabled: 1
-    path: Assets/Prefabs/Scenes/nivel2.unity
+    path: Assets/Scenes/nivel2.unity
   - enabled: 1
-    path: Assets/Prefabs/Scenes/nivel3.unity
+    path: Assets/Scenes/nivel3.unity
   - enabled: 1
-    path: Assets/Prefabs/Scenes/nivel4.unity
+    path: Assets/Scenes/nivel4.unity

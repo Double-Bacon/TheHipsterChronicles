@@ -18,9 +18,9 @@ if(Input.GetKeyUp(KeyCode.Mouse0)){
 
 	var NuevoDisparo : GameObject = Instantiate(bala, posicionDisparo.transform.position, bala.transform.rotation);
 		
-	//NuevoDisparo.transform.parent = emptyObject.transform;
+	NuevoDisparo.transform.parent = emptyObject.transform;
 	NuevoDisparo.transform.localScale = new Vector3(0.15,0.15,0.15);
-	//NuevoDisparo.transform.parent = emptyObject.transform;
+	NuevoDisparo.transform.parent = emptyObject.transform;
 	//NuevoDisparo.gameObject.AddComponent(Rigidbody);
 	//NuevoDisparo.GetComponent(Rigidbody).useGravity = false;
 	//NuevoDisparo.transform.collider.isTrigger = true;//.gameObject.AddComponent(ColisionDisparo);
