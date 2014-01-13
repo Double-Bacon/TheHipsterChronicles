@@ -2508,6 +2508,7 @@ GameObject:
   - 58: {fileID: 701182609}
   - 114: {fileID: 701182610}
   - 114: {fileID: 701182611}
+  - 114: {fileID: 701182612}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2730,6 +2731,20 @@ MonoBehaviour:
   vomitPartSyst: {fileID: 100000, guid: 9baf3096a962aef47afc0a312e375dae, type: 2}
   speed: 0
   inicCountSpeed: 0
+--- !u!114 &701182612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 701182597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5c81dedb5bd142459fbaf9722d86668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posicionDisparo: {fileID: 649050274}
+  VelocidadBala: 20
+  bala: {fileID: 100002, guid: 4bad71c67885b3a46b80926839c03b9d, type: 2}
 --- !u!1 &720064407
 GameObject:
   m_ObjectHideFlags: 0
@@ -3864,7 +3879,6 @@ GameObject:
   - 4: {fileID: 1635491818}
   - 33: {fileID: 1635491817}
   - 23: {fileID: 1635491815}
-  - 114: {fileID: 1635491814}
   m_Layer: 0
   m_Name: Pistola
   m_TagString: Untagged
@@ -3872,20 +3886,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1635491814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1635491813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5c81dedb5bd142459fbaf9722d86668, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  posicionDisparo: {fileID: 0}
-  VelocidadBala: 20
-  bala: {fileID: 0}
 --- !u!23 &1635491815
 Renderer:
   m_ObjectHideFlags: 0
