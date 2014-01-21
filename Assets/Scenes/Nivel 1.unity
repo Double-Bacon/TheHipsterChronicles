@@ -766,6 +766,7 @@ GameObject:
   - 33: {fileID: 290751632}
   - 23: {fileID: 290751631}
   - 61: {fileID: 290751630}
+  - 114: {fileID: 290751635}
   - 114: {fileID: 290751634}
   m_Layer: 8
   m_Name: Trampa
@@ -838,6 +839,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &290751635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 891123486}
+  m_GameObject: {fileID: 290751629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &322430157
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,6 +862,7 @@ GameObject:
   - 33: {fileID: 322430161}
   - 23: {fileID: 322430160}
   - 61: {fileID: 322430159}
+  - 114: {fileID: 322430163}
   - 114: {fileID: 322430158}
   m_Layer: 8
   m_Name: Trampa
@@ -921,6 +935,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &322430163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1421268758}
+  m_GameObject: {fileID: 322430157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &328526961
 Prefab:
   m_ObjectHideFlags: 0
@@ -976,6 +1002,7 @@ GameObject:
   - 33: {fileID: 328722017}
   - 23: {fileID: 328722016}
   - 61: {fileID: 328722015}
+  - 114: {fileID: 328722019}
   - 114: {fileID: 328722014}
   m_Layer: 8
   m_Name: Trampa
@@ -1048,6 +1075,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &328722019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1296315168}
+  m_GameObject: {fileID: 328722013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &334405979
 Prefab:
   m_ObjectHideFlags: 0
@@ -1139,6 +1178,7 @@ GameObject:
   - 33: {fileID: 342446408}
   - 23: {fileID: 342446407}
   - 61: {fileID: 342446406}
+  - 114: {fileID: 342446410}
   - 114: {fileID: 342446405}
   m_Layer: 8
   m_Name: Trampa
@@ -1211,6 +1251,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &342446410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 542607749}
+  m_GameObject: {fileID: 342446404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &352306178
 Prefab:
   m_ObjectHideFlags: 0
@@ -1768,6 +1820,7 @@ GameObject:
   - 33: {fileID: 505506459}
   - 23: {fileID: 505506458}
   - 61: {fileID: 505506457}
+  - 114: {fileID: 505506461}
   - 114: {fileID: 505506456}
   m_Layer: 8
   m_Name: Trampa
@@ -1840,6 +1893,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &505506461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1791089294}
+  m_GameObject: {fileID: 505506455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &540871060
 Prefab:
   m_ObjectHideFlags: 0
@@ -2002,6 +2067,7 @@ GameObject:
   - 33: {fileID: 555527711}
   - 23: {fileID: 555527710}
   - 61: {fileID: 555527709}
+  - 114: {fileID: 555527713}
   - 114: {fileID: 555527708}
   m_Layer: 8
   m_Name: Trampa
@@ -2074,6 +2140,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &555527713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 2043973919}
+  m_GameObject: {fileID: 555527707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &565826222
 Prefab:
   m_ObjectHideFlags: 0
@@ -4804,6 +4882,7 @@ GameObject:
   - 33: {fileID: 982346273}
   - 23: {fileID: 982346272}
   - 61: {fileID: 982346271}
+  - 114: {fileID: 982346275}
   - 114: {fileID: 982346270}
   m_Layer: 8
   m_Name: Trampa
@@ -4876,6 +4955,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &982346275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 948387349}
+  m_GameObject: {fileID: 982346269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &993834156
 GameObject:
   m_ObjectHideFlags: 0
@@ -5121,6 +5212,7 @@ GameObject:
   - 33: {fileID: 1050697126}
   - 23: {fileID: 1050697125}
   - 61: {fileID: 1050697124}
+  - 114: {fileID: 1050697128}
   - 114: {fileID: 1050697123}
   m_Layer: 8
   m_Name: Trampa
@@ -5193,6 +5285,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1050697128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 687899030}
+  m_GameObject: {fileID: 1050697122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1064453964
 GameObject:
   m_ObjectHideFlags: 0
@@ -5684,6 +5788,7 @@ GameObject:
   - 33: {fileID: 1193188046}
   - 23: {fileID: 1193188045}
   - 61: {fileID: 1193188044}
+  - 114: {fileID: 1193188048}
   - 114: {fileID: 1193188043}
   m_Layer: 8
   m_Name: Trampa
@@ -5756,6 +5861,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1193188048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 2016914161}
+  m_GameObject: {fileID: 1193188042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1204983385
 GameObject:
   m_ObjectHideFlags: 0
@@ -5879,6 +5996,7 @@ GameObject:
   - 33: {fileID: 1211792859}
   - 23: {fileID: 1211792858}
   - 61: {fileID: 1211792857}
+  - 114: {fileID: 1211792861}
   - 114: {fileID: 1211792856}
   m_Layer: 8
   m_Name: Trampa
@@ -5951,6 +6069,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1211792861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1247007181}
+  m_GameObject: {fileID: 1211792855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1230893390
 GameObject:
   m_ObjectHideFlags: 0
@@ -6764,6 +6894,7 @@ GameObject:
   - 33: {fileID: 1417389341}
   - 23: {fileID: 1417389340}
   - 61: {fileID: 1417389339}
+  - 114: {fileID: 1417389343}
   - 114: {fileID: 1417389338}
   m_Layer: 8
   m_Name: Trampa
@@ -6836,6 +6967,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1417389343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 406916239}
+  m_GameObject: {fileID: 1417389337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1421268758
 Prefab:
   m_ObjectHideFlags: 0
@@ -7020,6 +7163,7 @@ GameObject:
   - 33: {fileID: 1462970432}
   - 23: {fileID: 1462970431}
   - 61: {fileID: 1462970430}
+  - 114: {fileID: 1462970434}
   - 114: {fileID: 1462970429}
   m_Layer: 8
   m_Name: Trampa
@@ -7092,6 +7236,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1462970434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1332853388}
+  m_GameObject: {fileID: 1462970428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1480079418
 Prefab:
   m_ObjectHideFlags: 0
@@ -7143,6 +7299,7 @@ GameObject:
   - 33: {fileID: 1508031821}
   - 23: {fileID: 1508031820}
   - 61: {fileID: 1508031819}
+  - 114: {fileID: 1508031823}
   - 114: {fileID: 1508031818}
   m_Layer: 8
   m_Name: Trampa
@@ -7215,6 +7372,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1508031823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1133440606}
+  m_GameObject: {fileID: 1508031817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1537961354
 GameObject:
   m_ObjectHideFlags: 0
@@ -7439,6 +7608,7 @@ GameObject:
   - 33: {fileID: 1612564551}
   - 23: {fileID: 1612564550}
   - 61: {fileID: 1612564549}
+  - 114: {fileID: 1612564553}
   - 114: {fileID: 1612564548}
   m_Layer: 8
   m_Name: Trampa
@@ -7511,6 +7681,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1612564553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 889667218}
+  m_GameObject: {fileID: 1612564547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1618844156
 Prefab:
   m_ObjectHideFlags: 0
@@ -7746,7 +7928,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02f06fd66e42758448d068e3e2f3e079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 3
 --- !u!58 &1726853114
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8889,6 +9070,7 @@ GameObject:
   - 33: {fileID: 2043036502}
   - 23: {fileID: 2043036501}
   - 61: {fileID: 2043036500}
+  - 114: {fileID: 2043036504}
   - 114: {fileID: 2043036499}
   m_Layer: 8
   m_Name: Trampa
@@ -8961,6 +9143,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &2043036504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1480079418}
+  m_GameObject: {fileID: 2043036498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2043973919
 Prefab:
   m_ObjectHideFlags: 0
@@ -9200,7 +9394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02f06fd66e42758448d068e3e2f3e079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 3
 --- !u!58 &2147225428
 CircleCollider2D:
   m_ObjectHideFlags: 0

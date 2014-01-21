@@ -1,13 +1,14 @@
 #pragma strict
 
+var sizeZone: float = 5.0;
 var speed :float;
 var posMinX :float;
 var posMaxX :float;
 
 function Start () {
 	
-	posMaxX = this.gameObject.transform.position.x + 5.0;
-	posMinX = this.gameObject.transform.position.x - 5.0;
+	posMaxX = this.gameObject.transform.position.x + sizeZone;
+	posMinX = this.gameObject.transform.position.x - sizeZone;
 	speed = -3;
 
 }
