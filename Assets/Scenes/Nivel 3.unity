@@ -98,7 +98,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 26559552}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11, y: -2.77107215, z: 10}
+  m_LocalPosition: {x: -12.9297829, y: -2.77107215, z: 10}
   m_LocalScale: {x: 0, y: 50, z: 1}
   m_Children: []
   m_Father: {fileID: 1281865574}
@@ -1122,7 +1122,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 8d1d4f7d6b926084d9d48159da11dcea, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 21.3778343
+      value: 20.6641045
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8d1d4f7d6b926084d9d48159da11dcea, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4154,7 +4154,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 605626345}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.707315445, y: 1.6257658, z: 10}
+  m_LocalPosition: {x: -.548707962, y: -.356818676, z: 10}
   m_LocalScale: {x: 2.5, y: 2.23353815, z: 1}
   m_Children: []
   m_Father: {fileID: 1281865574}
@@ -8238,7 +8238,7 @@ Transform:
   m_PrefabInternal: {fileID: 216351382}
   m_GameObject: {fileID: 1479119260}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.3778343, y: .734731495, z: 0}
+  m_LocalPosition: {x: 20.6641045, y: .734731495, z: 0}
   m_LocalScale: {x: .600000024, y: 1.39999998, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8587,6 +8587,10 @@ Prefab:
     - target: {fileID: 400004, guid: a54b97b732cfa964894e20387df69da4, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: a54b97b732cfa964894e20387df69da4, type: 2}
+      propertyPath: lifeTime
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a54b97b732cfa964894e20387df69da4, type: 2}
@@ -9643,7 +9647,7 @@ MonoBehaviour:
   timeRecharge: 3
   time: 3
   velocityBullet: 5
-  lifeTime: 2
+  lifeTime: 3
   exitBullet: {fileID: 1858924574}
   enemy: {fileID: 1811865978}
   bulletSpeed: {fileID: 100000, guid: e2df35d57d531264c95740735e3756a1, type: 2}
