@@ -1147,6 +1147,7 @@ GameObject:
   - 33: {fileID: 290751632}
   - 23: {fileID: 290751631}
   - 61: {fileID: 290751630}
+  - 114: {fileID: 290751635}
   - 114: {fileID: 290751634}
   m_Layer: 8
   m_Name: Trampa
@@ -1213,6 +1214,18 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 290751629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &290751635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 891123486}
   m_GameObject: {fileID: 290751629}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1336,6 +1349,7 @@ MonoBehaviour:
   timeRecharge: 3
   time: 3
   velocityBullet: 5
+  lifeTime: 3
   exitBullet: {fileID: 1697226045}
   enemy: {fileID: 330146105}
   bulletSpeed: {fileID: 100000, guid: aab184b8fa2a3754a9149825c5f06a1f, type: 2}
@@ -1383,6 +1397,7 @@ GameObject:
   - 33: {fileID: 385259758}
   - 23: {fileID: 385259757}
   - 61: {fileID: 385259756}
+  - 114: {fileID: 385259760}
   - 114: {fileID: 385259755}
   m_Layer: 8
   m_Name: Trampa
@@ -1455,6 +1470,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &385259760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 57582885}
+  m_GameObject: {fileID: 385259754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &409617472
 Prefab:
   m_ObjectHideFlags: 0
@@ -1821,6 +1848,7 @@ GameObject:
   - 33: {fileID: 546255191}
   - 23: {fileID: 546255190}
   - 61: {fileID: 546255189}
+  - 114: {fileID: 546255193}
   - 114: {fileID: 546255188}
   m_Layer: 8
   m_Name: Trampa
@@ -1893,6 +1921,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &546255193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91428329}
+  m_GameObject: {fileID: 546255187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &565826222
 Prefab:
   m_ObjectHideFlags: 0
@@ -3089,7 +3129,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 652ee0533f534a742925aee72f0263a4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5cff7a0c61113b04d98d26b064527dbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &605626347
 Transform:
@@ -3417,6 +3457,7 @@ MonoBehaviour:
   timeRecharge: 3
   time: 3
   velocityBullet: 5
+  lifeTime: 3
   exitBullet: {fileID: 224460530}
   enemy: {fileID: 660796803}
   bulletSpeed: {fileID: 100000, guid: aab184b8fa2a3754a9149825c5f06a1f, type: 2}
@@ -3816,6 +3857,7 @@ MonoBehaviour:
   timeRecharge: 3
   time: 3
   velocityBullet: 5
+  lifeTime: 3
   exitBullet: {fileID: 1648550172}
   enemy: {fileID: 742957978}
   bulletSpeed: {fileID: 100000, guid: aab184b8fa2a3754a9149825c5f06a1f, type: 2}
@@ -5151,6 +5193,7 @@ MonoBehaviour:
   timeRecharge: 3
   time: 3
   velocityBullet: 5
+  lifeTime: 3
   exitBullet: {fileID: 1963636969}
   enemy: {fileID: 1407253430}
   bulletSpeed: {fileID: 100000, guid: aab184b8fa2a3754a9149825c5f06a1f, type: 2}
@@ -5198,6 +5241,7 @@ GameObject:
   - 33: {fileID: 1446961472}
   - 23: {fileID: 1446961471}
   - 61: {fileID: 1446961470}
+  - 114: {fileID: 1446961474}
   - 114: {fileID: 1446961469}
   m_Layer: 8
   m_Name: Trampa
@@ -5270,6 +5314,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1446961474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 200140c8c546955469e9eb4c82b5add9,
+    type: 2}
+  m_PrefabInternal: {fileID: 103171712}
+  m_GameObject: {fileID: 1446961468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7441cc8632995e349a60dd2304e24a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1450137624
 GameObject:
   m_ObjectHideFlags: 0
@@ -5599,7 +5655,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02f06fd66e42758448d068e3e2f3e079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 3
 --- !u!58 &1726853114
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6186,6 +6241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a967a5084f908944ba5fb40e74bba37d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sizeZone: 5
   speed: 0
   posMinX: 0
   posMaxX: 0
@@ -6413,7 +6469,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02f06fd66e42758448d068e3e2f3e079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 3
 --- !u!58 &2147225428
 CircleCollider2D:
   m_ObjectHideFlags: 0
